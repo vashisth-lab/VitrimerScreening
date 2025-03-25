@@ -1,0 +1,1 @@
+{"rf__max_depth": 18, "rf__max_features": 0.7296043872990428, "rf__min_samples_leaf": 1, "rf__n_estimators": 219}

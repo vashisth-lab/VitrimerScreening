@@ -1,0 +1,1 @@
+{"xgb__colsample_bytree": 0.835953508139978, "xgb__learning_rate": 0.13977960252069718, "xgb__max_depth": 3, "xgb__min_child_weight": 2.181603956259304, "xgb__n_estimators": 243, "xgb__reg_alpha": 1.0003204928940568, "xgb__reg_lambda": 9.602567843749068, "xgb__subsample": 0.5362172237328986}

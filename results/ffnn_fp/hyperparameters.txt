@@ -1,0 +1,1 @@
+{"batch size": 64, "hidden layer dimension": 16, "number of hidden layers": 3, "learning rate": 0.0003973653946561579, "weight decay": 0.0065709939635383435}
