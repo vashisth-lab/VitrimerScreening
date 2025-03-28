@@ -1,5 +1,7 @@
 # VitrimerScreening
-Codes and data used in the paper: Title link
+Codes and data used in the paper: Toward Sustainable Polymer Design: A Molecular Dynamics-Informed Machine Learning Approach for Vitrimers https://arxiv.org/abs/2503.20956
+
+<img src="overview.png">
 
 ## Requirements
 The codes are tested in the environment containing the following packages:
