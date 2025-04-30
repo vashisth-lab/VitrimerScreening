@@ -1,28 +1,29 @@
 # VitrimerScreening
-Codes and data used in the paper: Toward Sustainable Polymer Design: A Molecular Dynamics-Informed Machine Learning Approach for Vitrimers https://arxiv.org/abs/2503.20956
-
-<img src="overview.png">
+Codes and data used in the paper: Title link
 
 ## Requirements
-The codes are tested in the environment containing the following packages:
- - RDKit
- - Mol2vec https://github.com/samoturk/mol2vec
- - Mordred https://github.com/mordred-descriptor/mordred
- - scikit-learn
- - XGBoost https://xgboost.readthedocs.io/en/stable/
- - PyTorch
- - PyTorch Geometric
+The codes are tested in a Python 3.10.15 environment containing the following packages:
+ - RDKit (2024.3.5)
+ - Mol2vec (0.1) https://github.com/samoturk/mol2vec
+ - Mordred (2.0.6) https://github.com/mordred-descriptor/mordred
+ - scikit-learn (1.5.1)
+ - XGBoost (2.1.2) https://xgboost.readthedocs.io/en/stable/
+ - PyTorch (2.2.0)
+ - PyTorch Geometric (2.6.1)
  - TransPolymer https://github.com/ChangwenXu98/TransPolymer/tree/master
- - shap https://github.com/shap/shap
+ - shap (0.46.0) https://github.com/shap/shap
 
 ## Data
  - `data/labeled.csv`: 8,424 vitrimers from ZINC15 with MD-calculated *T*<sub>g</sub>
+ - `data/labeled_train.csv`: labeled training set
+ - `data/labeled_test.csv`: labeled test set
  - `data/unlabeled.csv`: 991,576 vitrimers from ZINC15
  - `data/unlabeled_synthesis`: 259 vitrimers from Sigma-Aldrich
 
 The first two datasets are sourced from our previous work https://github.com/vashisth-lab/VitrimerVAE
 
 ## Preprocess data
+ - `python split.py`: split 90/10 training/test sets
  - `python proprecess_fp.py`: convert vitrimer repeating unit into Morgan fingerprints
  - `python proprecess_mol2vec.py`: convert vitrimer repeating unit into mol2vec embeddings
  - `python proprecess_rdkit.py`: convert vitrimer repeating unit into RDKit descriptors
