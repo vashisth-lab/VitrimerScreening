@@ -38,8 +38,8 @@ The first two datasets are sourced from our previous work https://github.com/vas
  - `python svr.py [feature]`: train the support vector regression model using a certain feature and evaluate the trained model on the test set
  - `python xgb.py [feature]`: train the XGBoost model using a certain feature and evaluate the trained model on the test set
  - `python ffnn.py [feature]`: train the FFNN model using a certain feature and evaluate the trained model on the test set
- - `python gnn.py`: train the GNN model using a certain feature and evaluate the trained model on the test set
- - `python transpolymer.py`: train the Transformer model using a certain feature and evaluate the trained model on the test set
+ - `python gnn.py`: train the GNN model and evaluate the trained model on the test set
+ - `python transpolymer.py`: train the Transformer model and evaluate the trained model on the test set
  - `python ensemble.py`: evaluate the ensemble model (i.e., averaging predictions from different models) on the test set
 
 The GNN is based on https://data.mendeley.com/datasets/ydbv9t8fzr/1 and Transformer is based on https://github.com/ChangwenXu98/TransPolymer/tree/master
