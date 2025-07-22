@@ -22,7 +22,7 @@ The codes are tested in a Python 3.10.15 environment containing the following pa
  - `data/unlabeled.csv`: 991,576 vitrimers from ZINC15
  - `data/unlabeled_synthesis`: 259 vitrimers from Sigma-Aldrich
 
-The first two datasets are sourced from our previous work https://github.com/vashisth-lab/VitrimerVAE
+`labeled.csv` and `unlabeled.csv` are sourced from our previous work https://doi.org/10.1002/advs.202411385
 
 ## Preprocess data
  - `python split.py`: split 90/10 training/test sets
@@ -60,4 +60,4 @@ The GNN is based on https://data.mendeley.com/datasets/ydbv9t8fzr/1 and Transfor
  - `MD/tg_calibrated_low.csv`: MD values calibrated by a GP model
  - `MD/tg_calibrated_high.csv`: MD values calibrated by a GP model
  
-The codes for calibration are sourced from our previous work https://github.com/vashisth-lab/VitrimerVAE?tab=readme-ov-file#calibration
+The codes for calibration are sourced from our previous work https://doi.org/10.1002/advs.202411385
